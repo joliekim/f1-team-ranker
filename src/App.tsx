@@ -377,7 +377,7 @@ function App() {
     {
       id: 1,
       name: 'Red Bull Racing',
-      logo: '/logos/redbull.png',
+      logo: `${BASE_URL}/logos/redbull.png`,
       color: '#0600EF',
       performance: 90,
       innovation: 99,
@@ -389,7 +389,7 @@ function App() {
     {
       id: 2,
       name: 'Mercedes',
-      logo: '/logos/mercedes.png',
+      logo: `${BASE_URL}/logos/mercedes.png`,
       color: '#00D2BE',
       performance: 82,
       innovation: 91,
@@ -401,7 +401,7 @@ function App() {
     {
       id: 3,
       name: 'Ferrari',
-      logo: '/logos/ferrari.png',
+      logo: `${BASE_URL}/logos/ferrari.png`,
       color: '#DC0000',
       performance: 70,
       innovation: 78,
@@ -413,7 +413,7 @@ function App() {
     {
       id: 4,
       name: 'McLaren',
-      logo: '/logos/mclaren.png',
+      logo: `${BASE_URL}/logos/mclaren.png`,
       color: '#FF8700',
       performance: 62,
       innovation: 70,
@@ -425,7 +425,7 @@ function App() {
     {
       id: 5,
       name: 'Aston Martin',
-      logo: '/logos/astonmartin.png',
+      logo: `${BASE_URL}/logos/astonmartin.png`,
       color: '#006F62',
       performance: 17,
       innovation: 59,
@@ -437,7 +437,7 @@ function App() {
     {
       id: 6,
       name: 'Alpine',
-      logo: '/logos/alpine.png',
+      logo: `${BASE_URL}/logos/alpine.png`,
       color: '#0090FF',
       performance: 16,
       innovation: 58,
@@ -449,7 +449,7 @@ function App() {
     {
       id: 7,
       name: 'Williams',
-      logo: '/logos/williams.png',
+      logo: `${BASE_URL}/logos/williams.png`,
       color: '#005AFF',
       performance: 3,
       innovation: 50,
@@ -461,7 +461,7 @@ function App() {
     {
       id: 8,
       name: 'RB AlphaTauri',
-      logo: '/logos/alphatauri.png',
+      logo: `${BASE_URL}/logos/alphatauri.png`,
       color: '#2B4562',
       performance: 12,
       innovation: 56,
@@ -473,7 +473,7 @@ function App() {
     {
       id: 9,
       name: 'Kick Sauber',
-      logo: '/logos/alfaromeo.png',
+      logo: `${BASE_URL}/logos/alfaromeo.png`,
       color: '#00e701',
       performance: 7,
       innovation: 50,
@@ -485,7 +485,7 @@ function App() {
     {
       id: 10,
       name: 'Haas F1',
-      logo: '/logos/haas.png',
+      logo: `${BASE_URL}/logos/haas.png`,
       color: '#FFFFFF',
       performance: 6,
       innovation: 50,
@@ -643,7 +643,7 @@ function App() {
       <div 
         className="relative min-h-screen flex items-center justify-center"
         style={{
-          backgroundImage: 'url("f1-hero.jpg")',
+          backgroundImage: `url("${BASE_URL}/f1-hero.jpg")`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -658,7 +658,7 @@ function App() {
         {/* Content */}
         <div className="relative z-10 max-w-4xl text-center mx-auto px-6 py-20 space-y-8">
           <img 
-            src="/f1-logo.png" 
+            src={`${BASE_URL}/f1-logo.png`} 
             alt="F1 Logo" 
             className="h-18 w-auto mx-auto mb-20"
           />
@@ -718,7 +718,7 @@ function App() {
       }`}>
         <header className="flex flex-col items-center mb-12">
           <img 
-            src="/f1-logo-red.png" 
+            src={`${BASE_URL}/f1-logo-red.png`} 
             alt="F1 Logo" 
             className="h-24 w-auto mb-6"
           />
