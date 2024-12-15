@@ -44,8 +44,8 @@ type TeamDetails = {
 const teamDetails: TeamDetails = {
   'Red Bull Racing': {
     drivers: [
-      { name: 'Max Verstappen', image: '/drivers/verstappen.avif' },
-      { name: 'Sergio Perez', image: '/drivers/perez.avif' }
+      { name: 'Max Verstappen', image: 'drivers/verstappen.png' },
+      { name: 'Sergio Perez', image: 'drivers/perez.png' }
     ],
     country: 'Austria',
     tagline: "The current dominant force in F1",
@@ -53,8 +53,8 @@ const teamDetails: TeamDetails = {
   },
   'Mercedes': {
     drivers: [
-      { name: 'Lewis Hamilton', image: '/drivers/hamilton.avif' },
-      { name: 'George Russell', image: '/drivers/russell.avif' }
+      { name: 'Lewis Hamilton', image: 'drivers/hamilton.png' },
+      { name: 'George Russell', image: 'drivers/russell.png' }
     ],
     country: 'Germany',
     tagline: "The silver arrows of modern F1",
@@ -62,8 +62,8 @@ const teamDetails: TeamDetails = {
   },
   'Ferrari': {
     drivers: [
-      { name: 'Charles Leclerc', image: '/drivers/leclerc.avif' },
-      { name: 'Carlos Sainz', image: '/drivers/sainz.avif' }
+      { name: 'Charles Leclerc', image: 'drivers/leclerc.png' },
+      { name: 'Carlos Sainz', image: 'drivers/sainz.png' }
     ],
     country: 'Italy',
     tagline: "The most iconic team in Formula 1",
@@ -71,8 +71,8 @@ const teamDetails: TeamDetails = {
   },
   'McLaren': {
     drivers: [
-      { name: 'Lando Norris', image: '/drivers/norris.avif' },
-      { name: 'Oscar Piastri', image: '/drivers/piastri.avif' }
+      { name: 'Lando Norris', image: 'drivers/norris.png' },
+      { name: 'Oscar Piastri', image: 'drivers/piastri.png' }
     ],
     country: 'United Kingdom',
     tagline: "Racing and innovation pioneers",
@@ -80,8 +80,8 @@ const teamDetails: TeamDetails = {
   },
   'Aston Martin': {
     drivers: [
-      { name: 'Fernando Alonso', image: '/drivers/alonso.avif' },
-      { name: 'Lance Stroll', image: '/drivers/stroll.avif' }
+      { name: 'Fernando Alonso', image: 'drivers/alonso.png' },
+      { name: 'Lance Stroll', image: 'drivers/stroll.png' }
     ],
     country: 'United Kingdom',
     tagline: "British racing green meets modern ambition",
@@ -89,8 +89,8 @@ const teamDetails: TeamDetails = {
   },
   'Alpine': {
     drivers: [
-      { name: 'Jack Doohan', image: '/drivers/doohan.avif' },
-      { name: 'Pierre Gasly', image: '/drivers/gasly.avif' }
+      { name: 'Jack Doohan', image: 'drivers/doohan.png' },
+      { name: 'Pierre Gasly', image: 'drivers/gasly.png' }
     ],
     country: 'France',
     tagline: "French racing excellence reborn",
@@ -98,8 +98,8 @@ const teamDetails: TeamDetails = {
   },
   'Williams': {
     drivers: [
-      { name: 'Alex Albon', image: '/drivers/albon.avif' },
-      { name: 'Franco Colapinto', image: '/drivers/colapinto.avif' }
+      { name: 'Alex Albon', image: 'drivers/albon.png' },
+      { name: 'Franco Colapinto', image: 'drivers/colapinto.png' }
     ],
     country: 'United Kingdom',
     tagline: "Independent racing pioneers",
@@ -107,8 +107,8 @@ const teamDetails: TeamDetails = {
   },
   'RB AlphaTauri': {
     drivers: [
-      { name: 'Liam Lawson', image: '/drivers/lawson.avif' },
-      { name: 'Yuki Tsunoda', image: '/drivers/tsunoda.avif' }
+      { name: 'Liam Lawson', image: 'drivers/lawson.png' },
+      { name: 'Yuki Tsunoda', image: 'drivers/tsunoda.png' }
     ],
     country: 'Italy',
     tagline: "Red Bull's talent incubator",
@@ -116,8 +116,8 @@ const teamDetails: TeamDetails = {
   },
   'Kick Sauber': {
     drivers: [
-      { name: 'Valtteri Bottas', image: '/drivers/bottas.avif' },
-      { name: 'Zhou Guanyu', image: '/drivers/zhou.avif' }
+      { name: 'Valtteri Bottas', image: 'drivers/bottas.png' },
+      { name: 'Zhou Guanyu', image: 'drivers/zhou.png' }
     ],
     country: 'Switzerland',
     tagline: "Racing with Italian heart",
@@ -125,8 +125,8 @@ const teamDetails: TeamDetails = {
   },
   'Haas F1': {
     drivers: [
-      { name: 'Kevin Magnussen', image: '/drivers/magnussen.avif' },
-      { name: 'Nico Hulkenberg', image: '/drivers/hulkenberg.avif' }
+      { name: 'Kevin Magnussen', image: 'drivers/magnussen.png' },
+      { name: 'Nico Hulkenberg', image: 'drivers/hulkenberg.png' }
     ],
     country: 'United States',
     tagline: "America's F1 team",
@@ -377,7 +377,7 @@ function App() {
     {
       id: 1,
       name: 'Red Bull Racing',
-      logo: '/logos/redbull.png',
+      logo: 'logos/redbull.png',
       color: '#0600EF',
       performance: 90,
       innovation: 99,
@@ -389,7 +389,7 @@ function App() {
     {
       id: 2,
       name: 'Mercedes',
-      logo: '/logos/mercedes.png',
+      logo: 'logos/mercedes.png',
       color: '#00D2BE',
       performance: 82,
       innovation: 91,
@@ -401,7 +401,7 @@ function App() {
     {
       id: 3,
       name: 'Ferrari',
-      logo: '/logos/ferrari.png',
+      logo: 'logos/ferrari.png',
       color: '#DC0000',
       performance: 70,
       innovation: 78,
@@ -413,7 +413,7 @@ function App() {
     {
       id: 4,
       name: 'McLaren',
-      logo: '/logos/mclaren.png',
+      logo: 'logos/mclaren.png',
       color: '#FF8700',
       performance: 62,
       innovation: 70,
@@ -425,7 +425,7 @@ function App() {
     {
       id: 5,
       name: 'Aston Martin',
-      logo: '/logos/astonmartin.png',
+      logo: 'logos/astonmartin.png',
       color: '#006F62',
       performance: 17,
       innovation: 59,
@@ -437,7 +437,7 @@ function App() {
     {
       id: 6,
       name: 'Alpine',
-      logo: '/logos/alpine.png',
+      logo: 'logos/alpine.png',
       color: '#0090FF',
       performance: 16,
       innovation: 58,
@@ -449,7 +449,7 @@ function App() {
     {
       id: 7,
       name: 'Williams',
-      logo: '/logos/williams.png',
+      logo: 'logos/williams.png',
       color: '#005AFF',
       performance: 3,
       innovation: 50,
@@ -461,7 +461,7 @@ function App() {
     {
       id: 8,
       name: 'RB AlphaTauri',
-      logo: '/logos/alphatauri.png',
+      logo: 'logos/alphatauri.png',
       color: '#2B4562',
       performance: 12,
       innovation: 56,
@@ -473,7 +473,7 @@ function App() {
     {
       id: 9,
       name: 'Kick Sauber',
-      logo: '/logos/alfaromeo.png',
+      logo: 'logos/alfaromeo.png',
       color: '#00e701',
       performance: 7,
       innovation: 50,
@@ -485,7 +485,7 @@ function App() {
     {
       id: 10,
       name: 'Haas F1',
-      logo: '/logos/haas.png',
+      logo: 'logos/haas.png',
       color: '#FFFFFF',
       performance: 6,
       innovation: 50,
@@ -643,7 +643,7 @@ function App() {
       <div 
         className="relative min-h-screen flex items-center justify-center"
         style={{
-          backgroundImage: 'url("/f1-hero.jpg")',
+          backgroundImage: 'url("f1-hero.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -658,7 +658,7 @@ function App() {
         {/* Content */}
         <div className="relative z-10 max-w-4xl text-center mx-auto px-6 py-20 space-y-8">
           <img 
-            src="/f1-logo.png" 
+            src="f1-logo.png" 
             alt="F1 Logo" 
             className="h-18 w-auto mx-auto mb-20"
           />
@@ -718,7 +718,7 @@ function App() {
       }`}>
         <header className="flex flex-col items-center mb-12">
           <img 
-            src="/f1-logo-red.png" 
+            src="f1-logo-red.png" 
             alt="F1 Logo" 
             className="h-24 w-auto mb-6"
           />
@@ -1285,7 +1285,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h4 className="text-lg font-semibold mb-4">F1 Team Bias Finder</h4>
+              <h4 className="text-lg font-semibold mb-4">F1 Team Picker</h4>
               <p className="text-zinc-400 text-sm">
                 A fan-made tool to help you discover which Formula 1 team you would most likely root for.
                 Only teams active in recent seasons are included.
