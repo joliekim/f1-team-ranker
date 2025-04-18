@@ -11,7 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
-src/f1_data/EDA.ipynb
+*.ipynb
 
 # Editor directories and files
 .vscode/*
